@@ -1,4 +1,4 @@
 - Pruebas de aceptacion
-  Definicion de pruebas basadas en historias de usuario
+  Definicion de pruebas basadas en casos de uso
 - Pruebas unitarias
 
