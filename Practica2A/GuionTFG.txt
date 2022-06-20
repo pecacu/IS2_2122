@@ -1,4 +1,5 @@
 Capitulo 1: Introduccion
 Capitulo 2: Requisitos
 Capitulo 3: Diseño
-Capitulo 4: Conclusiones
+Capitulo 4: Pruebas
+Capitulo 5: Conclusiones
