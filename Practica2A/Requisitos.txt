@@ -1,3 +1,4 @@
 Capitulo 2: Requisitos
 - Requisitos funcionales
 - Requisitos no funcionales
+- Requisitos de interfaz
