@@ -1,3 +1,5 @@
+package es.unican.is2.ImpuestoCirculacionDAO;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -6,7 +8,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
+import es.unican.is2.ImpuestoCirculacionCommon.*;
 
 /**
  * Clase de utilidad para implementar el almacenamiento en fichero
@@ -36,7 +38,7 @@ public class Ayuntamiento implements Serializable {
 	}
 	
 	/**
-	 * Vuelca los datos de la instancia que se pasa como parámetro
+	 * Vuelca los datos de la instancia que se pasa como parï¿½metro
 	 * al fichero de almacenamiento
 	 * @return Instancia de Ayuntamiento con datos
 	 */

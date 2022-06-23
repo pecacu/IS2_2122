@@ -17,6 +17,11 @@
   </properties>
 
   <dependencies>
+      <dependency>
+      <groupId>es.unican.is2</groupId>
+      <artifactId>ImpuestoCirculacionCommon</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

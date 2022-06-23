@@ -1,5 +1,6 @@
 package es.unican.is2.ImpuestoCirculacionCommon;
 import java.io.Serializable;
+import java.time.LocalDate;
 
 @SuppressWarnings("serial")
 public class Turismo
@@ -8,6 +9,10 @@ public class Turismo
 
 	private double potencia;
 	
+	public Turismo(String matricula, LocalDate fecha, double potencia) {
+		super(matricula, fecha);
+		this.potencia = potencia;
+	}
 	/**
 	 * Retorna la potencia del turismo
 	 * @return potencia en caballos fiscales

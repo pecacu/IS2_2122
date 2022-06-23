@@ -1,5 +1,9 @@
+package es.unican.is2.ImpuestoCirculacionMain;
+import es.unican.is2.ImpuestoCirculacionDAO.*;
+import es.unican.is2.ImpuestoCirculacionBusiness.*;
+import es.unican.is2.ImpuestoCirculacionGUI.*;
 /**
- * Clase principal que construye la aplicación de tres capas y lanza su ejecución
+ * Clase principal que construye la aplicaciï¿½n de tres capas y lanza su ejecuciï¿½n
  */
 public class Runner {
 
@@ -14,7 +18,7 @@ public class Runner {
 		// Componentes casa presentacion
 		VistaFuncionario vista = new VistaFuncionario(negocio, negocio, negocio);
 		
-		// Lanza ejecución
+		// Lanza ejecuciï¿½n
 		vista.setVisible(true);
 	}
 

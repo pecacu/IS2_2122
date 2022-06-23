@@ -1,3 +1,5 @@
+package es.unican.is2.ImpuestoCirculacionGUI;
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -13,6 +15,7 @@ import javax.swing.border.LineBorder;
 
 import java.awt.Color;
 import javax.swing.JButton;
+import es.unican.is2.ImpuestoCirculacionCommon.*;
 
 /**
  * Clase que implementa la vista del funcionario dentro de la capa de
@@ -122,7 +125,7 @@ public class VistaFuncionario extends JFrame {
 				listModel.addElement(v.getMatricula());
 			}
 		} else {
-			txtNombreContribuyente.setText("DNI No Válido");
+			txtNombreContribuyente.setText("DNI No Vï¿½lido");
 			txtTotalContribuyente.setText("0");
 			listModel.removeAllElements();
 		}
