@@ -25,7 +25,6 @@ public class Contribuyente implements Serializable {
      * @return Valor del impuesto a pagar
      */
     public double totalAPagar() {
-    	//TODO
     	double total = 0;
     	for (int i = 0; i < vehiculos.size(); i++) {
     		total += vehiculos.get(i).precioImpuesto();

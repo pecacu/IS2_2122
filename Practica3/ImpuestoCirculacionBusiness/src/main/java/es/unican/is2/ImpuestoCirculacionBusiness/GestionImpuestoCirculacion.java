@@ -19,14 +19,12 @@ public class GestionImpuestoCirculacion implements IGestionContribuyentes, IGest
 	 * Se anhade un contribuyente si ya existe se comunica el error.
 	 */
 	public Contribuyente altaContribuyente(Contribuyente c) {
-		// TODO
 		return contribuyentes.creaContribuyente(c);
 		
 	}
 
 	
 	public Contribuyente bajaContribuyente(String dni) throws OperacionNoValida {
-		// TODO
 		Contribuyente c = contribuyentes.contribuyente(dni);
 		if (c == null) {
 			throw new OperacionNoValida("No se encuentra al cliente");
@@ -38,12 +36,10 @@ public class GestionImpuestoCirculacion implements IGestionContribuyentes, IGest
 	 }
 	
 	public Contribuyente contribuyente(String dni) {
-		// TODO
 		return contribuyentes.contribuyente(dni);
 	}
 
 	public Vehiculo altaVehiculo(Vehiculo v, String dni) throws OperacionNoValida {
-		// TODO
 		if (vehiculos.vehiculo(v.getMatricula()) != null) {
 			throw new OperacionNoValida("Existe un vehiculo dado de alta con esa matricula en la BBDD");
 		}
@@ -63,7 +59,6 @@ public class GestionImpuestoCirculacion implements IGestionContribuyentes, IGest
 
 	@Override
 	public Vehiculo bajaVehiculo(String matricula, String dni) throws OperacionNoValida {
-		// TODO
 		Vehiculo v = vehiculos.vehiculo(matricula); 
 		if ( v == null) {
 			throw new OperacionNoValida("No existe un vehiculo con esa matricula en la BBDD");
@@ -88,7 +83,6 @@ public class GestionImpuestoCirculacion implements IGestionContribuyentes, IGest
 	 */
 	@Override
 	public Vehiculo vehiculo(String matricula) {
-		// TODO
 		return vehiculos.vehiculo(matricula);
 	}	
 }
